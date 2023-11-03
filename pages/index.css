@@ -57,6 +57,10 @@
   text-decoration: none;
 }
 
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   height: 16px;
   width: 16px;
