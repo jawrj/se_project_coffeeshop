@@ -4,7 +4,6 @@
     <title>Project Coffee Shop</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
     <meta name="description" content="Triple Peaks Coffee" />
@@ -77,30 +76,26 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=aal6T4Z_g33te12f"
-                width="480"
-                height="273"
                 class="recipes__iframe"
               ></iframe>
               <p class="recipes__video-caption">
                 <span>Aeropress recipe </span>~5 min
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8?si=kP7TL0wo3HMvJUA9"
-                width="480"
-                height="273"
                 class="recipes__iframe"
               ></iframe>
               <p class="recipes__video-caption">
                 <span>French press recipe </span>~15 min
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -153,7 +148,10 @@
               </label>
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
-            <label for="terms-use" class="form__label form__label_checkbox">
+            <label
+              for="terms-use"
+              class="form__button-label form__button-label_checkbox"
+            >
               <input
                 type="checkbox"
                 class="form__checkbox"
@@ -240,7 +238,7 @@
         <section id="about" class="about">
           <div class="about__circle"></div>
           <div class="about__circle about__circle_animation_blurred"></div>
-          <h3 class="about__title">About the coffe shop</h3>
+          <h2 class="about__title">About the coffe shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
@@ -265,7 +263,7 @@
             alt="Triple Espresso Logo"
             class="footer__logo"
           />
-          <div class="footer__content footer__content_social">
+          <div class="footer__content">
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
