@@ -14,5 +14,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 - Add 0 to pricing, to make format consistent
-- Not much needs to be changed. Project serves it's function.
-- Simplicity works best here.
+- Add cursor:pointer declatrations to buttons/links

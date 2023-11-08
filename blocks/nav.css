@@ -26,8 +26,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  cursor: pointer;
 }
 
 .nav__link:hover {
   color: #2f80ed;
+  transition: color 0.5s linear 0s;
 }

@@ -65,6 +65,12 @@
 
 .form__button:hover {
   opacity: 70%;
+  transition: opacity 0.5s linear 0s;
+}
+
+.form__button-label {
+  display: flex;
+  justify-content: center;
 }
 
 .form__checkbox {
